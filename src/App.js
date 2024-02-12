@@ -3,6 +3,7 @@ import './App.css';
 import Card from './component/Card';
 import Categorie from './component/Categorie';
 import Deals from './component/Deals';
+import Footer from './component/Footer';
 import Header from './component/Header';
 import Mobile from './component/Mobile';
 import Popular from './component/Popular';
@@ -20,6 +21,7 @@ function App() {
        <Subscribe/>
        <Work/>
        <Mobile/>
+       <Footer/>
     </div>
   );
 }
