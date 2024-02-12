@@ -28,14 +28,15 @@ const Header = () => {
               border: "none",
               outline: "none",
               background: "transparent",
+              width: "100%"
             }}
             placeholder="Search for brand, categories and coupons"
           />
         </div>
         <button
           style={{
-            width: "10%",
-            height: "15%",
+            width: "20%", // Adjust width as needed
+            height: "auto", 
             borderRadius: "8px",
             padding: "12px 16px",
             margin: "8px",
@@ -45,7 +46,7 @@ const Header = () => {
             cursor: "pointer",
           }}
         >
-          LOGIN/SIGNUP
+          LOGIN
         </button>
       </div>
       {/* component for the navbar  */}
