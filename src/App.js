@@ -6,6 +6,7 @@ import Deals from './component/Deals';
 import Header from './component/Header';
 import Popular from './component/Popular';
 import Subscribe from './component/Subscribe';
+import Work from './component/Work';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
        <Categorie/>
        <Popular/>
        <Subscribe/>
+       <Work/>
     </div>
   );
 }

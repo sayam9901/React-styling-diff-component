@@ -101,7 +101,8 @@ const Subscribe = () => {
               border: "rgba(240, 28, 33, 1)",
               width:"120px",
               marginLeft:"7%",
-              marginTop:"10px"
+              marginTop:"10px",
+              cursor: "pointer"
             }}
           >
             SUBSCRIBE
